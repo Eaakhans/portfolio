@@ -1,0 +1,42 @@
+/*
+ Theme Name:   oceanwp Child
+ Theme URI:    http://kasperhansen.dk/portfolio/oceanwp-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Kasper Hansen
+ Author URI:   http://kasperhansen.dk
+ Template:     oceanwp
+ Version:      1.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  oceanwpchild
+*/
+h1 {
+   font-family: 'Permanent Marker', cursive !important; 
+   font-size: 45px !important;
+}
+h2 {
+    font-size: 35px !important;
+}
+h3 {
+    font-family: 'Permanent Marker', cursive !important;
+}
+#site-header {
+max-height: 50px;
+font-family: 'Permanent Marker', cursive;
+
+}
+.heading-title {
+    font-size: 200px;
+}
+
+/* farven samt oppasitet på header */
+#site-header{
+    position: fixed !important;
+    background-color: #fff;
+    z-index: 100;
+}
+p {
+    font-family: 'Raleway', sans-serif !important;
+}
+
