@@ -40,3 +40,76 @@ p {
     font-family: 'Raleway', sans-serif !important;
 }
 
+.elementor-widget-progress .elementor-title {
+    color: #6ec1e4;
+    font-family: 'Permanent Marker', cursive !important;
+    font-weight: 400;
+}
+#scroll-top {
+    background-color: #f15b10 !important;
+}
+
+/* min egen copyr*/
+.footer-social-icons::after {
+    content: "Kasper Hansen ©2020";
+    text-align: center;
+    margin-top:18px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.header-title-frontpage {
+     overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    font-family: 'Permanent Marker', cursive !important;
+  
+  
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #F15B10; }
+}    
+/*
+for animated css classes elemetor
+animated bounce
+animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 7;
+ */
+.progress-bar {
+ 
+  
+}
+.elementer-button {
+    z-index: 10 !important;
+}
+.elementor-28 .elementor-element.elementor-element-c5a7f05 .elementor-button {
+   
+    border-radius: 20px !important;
+   
+}
+.header-button {
+    
+     animation-duration: 3s !important;
+  animation-delay: 2s !important;
+  animation-iteration-count: 7 !important;
+}
+#footer-widgets {
+    background-color: #222;
+    padding: 0px 0 !important;
+    margin: 0;
+}
