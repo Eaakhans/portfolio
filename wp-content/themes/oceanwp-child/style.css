@@ -37,8 +37,9 @@ font-family: 'Permanent Marker', cursive;
     z-index: 100;
 }
 p {
-    font-family: 'Raleway', sans-serif !important;
+    font-family: 'Raleway', sans-serif;
 }
+
 
 .elementor-widget-progress .elementor-title {
     color: #6ec1e4;
@@ -49,18 +50,13 @@ p {
     background-color: #f15b10 !important;
 }
 
-/* min egen copyr*/
-.footer-social-icons::after {
-    content: "Kasper Hansen ©2020";
-    text-align: center;
-    margin-top:18px;
-    margin-left: auto;
-    margin-right:auto;
-}
 
+
+}
+/*Koden til skrive animation*/
 .header-title-frontpage {
      overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15em solid #fff; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
@@ -81,8 +77,9 @@ p {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #F15B10; }
+  50% { border-color: #fff; }
 }    
+
 /*
 for animated css classes elemetor
 animated bounce
@@ -90,10 +87,7 @@ animation-duration: 3s;
   animation-delay: 2s;
   animation-iteration-count: 7;
  */
-.progress-bar {
- 
-  
-}
+
 .elementer-button {
     z-index: 10 !important;
 }
@@ -102,9 +96,10 @@ animation-duration: 3s;
     border-radius: 20px !important;
    
 }
+/* buttom frontpage animation - duration */
 .header-button {
     
-     animation-duration: 3s !important;
+  animation-duration: 3s !important;
   animation-delay: 2s !important;
   animation-iteration-count: 7 !important;
 }
